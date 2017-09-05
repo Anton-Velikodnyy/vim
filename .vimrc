@@ -2,6 +2,7 @@
 call plug#begin('~/.vim/bundle')
 Plug 'tomasr/molokai'
 Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 """""Quality of Life inprovement
 """visuals
