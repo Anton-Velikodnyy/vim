@@ -73,7 +73,7 @@ set ignorecase
 nmap o o<ESC>
 nmap O O<ESC>
 "tab autocompletes
-ino <TAB> <C-n>
+#ino <TAB> <C-n>
 "leader,leader resets vimrc in file
 no <leader><leader> :so ~/.vimrc<CR>
 no <leader><leader><leader> :vsplit ~/.vimrc<CR>
@@ -104,8 +104,6 @@ map <ScrollWheelDown> <C-E>
 
 
 "speed up attempts
-"tried disabling molokai colorscheme
-"tried disabling column coloring
 let loaded_matchparen = 1
 :set ttyfast
  
