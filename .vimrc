@@ -1,3 +1,14 @@
+" vim-plug: Vim plugin manager
+" ============================
+"
+" Download plug.vim and put it in ~/.vim/autoload
+"
+"   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
+" Paste this vimrc into ./.vimrc
+" Then reload .vimrc and :PlugInstall to install plugins.
+
 "vimplug prerequisites
 call plug#begin('~/.vim/plugged')
 Plug 'tomasr/molokai'
